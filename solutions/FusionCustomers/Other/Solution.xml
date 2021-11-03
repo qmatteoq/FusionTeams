@@ -7,17 +7,17 @@
     </LocalizedNames>
     <Descriptions />
     <Version>1.0.0.0</Version>
-    <Managed>0</Managed>
+    <Managed>1</Managed>
     <Publisher>
-      <UniqueName>Cra52e5</UniqueName>
+      <UniqueName>Cr818e4</UniqueName>
       <LocalizedNames>
         <LocalizedName description="CDS Default Publisher" languagecode="1033" />
       </LocalizedNames>
       <Descriptions />
       <EMailAddress xsi:nil="true"></EMailAddress>
       <SupportingWebsiteUrl xsi:nil="true"></SupportingWebsiteUrl>
-      <CustomizationPrefix>cr22a</CustomizationPrefix>
-      <CustomizationOptionValuePrefix>12541</CustomizationOptionValuePrefix>
+      <CustomizationPrefix>cr7c8</CustomizationPrefix>
+      <CustomizationOptionValuePrefix>89064</CustomizationOptionValuePrefix>
       <Addresses>
         <Address>
           <AddressNumber>1</AddressNumber>
@@ -78,7 +78,7 @@
       </Addresses>
     </Publisher>
     <RootComponents>
-      <RootComponent type="300" schemaName="cr22a_fusioncustomers_52201" behavior="0" />
+      <RootComponent type="300" schemaName="cr7c8_fusioncustomers_9bbc1" behavior="0" />
     </RootComponents>
     <MissingDependencies />
   </SolutionManifest>
