@@ -70,7 +70,7 @@ jobs:
         environment-url: ${{env.BUILD_ENVIRONMENT_URL}}
         user-name: ${{env.USERNAME}}
         password-secret: ${{ secrets.password }}
-        solution-name: ${{ github.event.inputs.solution_name_prod }}
+        solution-name: ${{ github.event.inputs.solution_name }}
         managed: true
         solution-output-file: ${{ github.event.inputs.solution_shipping_folder}}/${{ github.event.inputs.solution_name }}.zip
 
