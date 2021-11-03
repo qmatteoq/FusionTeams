@@ -36,8 +36,8 @@ env:
 #edit your values here
   BUILD_ENVIRONMENT_URL: '<BUILDENVIRONMENTURL>'
   PRODUCTION_ENVIRONMENT_URL: 'https://org24adab96.crm4.dynamics.com/'
-  CLIENT_ID: '<APPID>'
-  TENANT_ID: '<TENANT ID>'
+  CLIENT_ID: 'b2fae3fa-a48e-4699-bd0b-5a15259055e3'
+  TENANT_ID: 'fa9698bd-41f3-4d1c-ba39-cf62531f61a9'
 
 jobs:
   convert-to-managed:
