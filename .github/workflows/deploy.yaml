@@ -11,11 +11,6 @@ on:
         description: 'name of the solution to worked on from Power Platform'
         required: true
         default: FusionCustomers
-      solution_name_prod:
-        description: 'name of the solution to worked on from Power Platform'
-        required: true
-        default: FusionCustomers-Prod
-       #Do Not change these values
       solution_shipping_folder:
         description: 'folder name for staging the exported solution *do not change*'
         required: true
@@ -77,13 +72,13 @@ jobs:
         password-secret: ${{ secrets.password }}
         solution-name: ${{ github.event.inputs.solution_name_prod }}
         managed: true
-        solution-output-file: ${{ github.event.inputs.solution_shipping_folder}}/${{ github.event.inputs.solution_name_prod }}.zip
+        solution-output-file: ${{ github.event.inputs.solution_shipping_folder}}/${{ github.event.inputs.solution_name }}.zip
 
     - name: Upload the ready to ship solution to GH artifact store
       uses: actions/upload-artifact@v2
       with:
         name: managedSolutions
-        path: ${{ github.event.inputs.solution_shipping_folder}}/${{ github.event.inputs.solution_name_prod }}.zip
+        path: ${{ github.event.inputs.solution_shipping_folder}}/${{ github.event.inputs.solution_name }}.zip
 
   release-to-staging:
     needs: [ convert-to-managed ]
@@ -108,6 +103,6 @@ jobs:
         environment-url: ${{env.PRODUCTION_ENVIRONMENT_URL}}
         user-name: ${{env.USERNAME}}
         password-secret: ${{ secrets.password }}
-        solution-file: ${{ github.event.inputs.solution_release_folder}}/${{ github.event.inputs.solution_name_prod }}.zip
+        solution-file: ${{ github.event.inputs.solution_release_folder}}/${{ github.event.inputs.solution_name }}.zip
         force-overwrite: true
         publish-changes: true
