@@ -27,7 +27,7 @@ on:
 env:
 #edit your values here
   ENVIRONMENT_URL: https://org8df88763.crm4.dynamics.com/
-  USERNAME: ${{ secrets.POWERPLATFORMUSERNAME }}
+  USERNAME: ${{ secrets.Username }}
 
 
 jobs:
