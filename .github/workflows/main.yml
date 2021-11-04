@@ -49,7 +49,6 @@ jobs:
         client-secret: ${{ secrets.PowerPlatformSPN }}
         tenant-id: ${{env.TENANT_ID}}
 
-
     - name: export-solution action
       uses: microsoft/powerplatform-actions/export-solution@0.4.0
       with:
@@ -60,7 +59,16 @@ jobs:
         solution-name: ${{ github.event.inputs.solution_name }}
         solution-output-file: ${{ github.event.inputs.solution_exported_folder}}/${{ github.event.inputs.solution_name }}.zip
         managed: true
-
+        
+    - name: check-solution action
+      uses: microsoft/powerplatform-actions/check-solution@0.4.0
+      with: 
+        environment-url: ${{env.ENVIRONMENT_URL}}
+        app-id: ${{env.CLIENT_ID}}
+        client-secret: ${{ secrets.PowerPlatformSPN }}
+        tenant-id: ${{env.TENANT_ID}}
+        path: ${{ github.event.inputs.solution_exported_folder}}/${{ github.event.inputs.solution_name }}.zip          
+          
     - name: unpack-solution action
       uses: microsoft/powerplatform-actions/unpack-solution@0.4.0
       with:
