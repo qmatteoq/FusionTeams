@@ -11,17 +11,19 @@
     <Publisher>
       <UniqueName>Cr818e4</UniqueName>
       <LocalizedNames>
-        <LocalizedName description="CDS Default Publisher" languagecode="1033" />
+        <LocalizedName description="Cr818e4" languagecode="1033" />
       </LocalizedNames>
-      <Descriptions />
+      <Descriptions>
+        <Description description="Cr818e4" languagecode="1033" />
+      </Descriptions>
       <EMailAddress xsi:nil="true"></EMailAddress>
       <SupportingWebsiteUrl xsi:nil="true"></SupportingWebsiteUrl>
       <CustomizationPrefix>cr7c8</CustomizationPrefix>
-      <CustomizationOptionValuePrefix>89064</CustomizationOptionValuePrefix>
+      <CustomizationOptionValuePrefix>80515</CustomizationOptionValuePrefix>
       <Addresses>
         <Address>
           <AddressNumber>1</AddressNumber>
-          <AddressTypeCode xsi:nil="true"></AddressTypeCode>
+          <AddressTypeCode>1</AddressTypeCode>
           <City xsi:nil="true"></City>
           <County xsi:nil="true"></County>
           <Country xsi:nil="true"></Country>
@@ -37,7 +39,7 @@
           <PostalCode xsi:nil="true"></PostalCode>
           <PostOfficeBox xsi:nil="true"></PostOfficeBox>
           <PrimaryContactName xsi:nil="true"></PrimaryContactName>
-          <ShippingMethodCode xsi:nil="true"></ShippingMethodCode>
+          <ShippingMethodCode>1</ShippingMethodCode>
           <StateOrProvince xsi:nil="true"></StateOrProvince>
           <Telephone1 xsi:nil="true"></Telephone1>
           <Telephone2 xsi:nil="true"></Telephone2>
@@ -49,7 +51,7 @@
         </Address>
         <Address>
           <AddressNumber>2</AddressNumber>
-          <AddressTypeCode xsi:nil="true"></AddressTypeCode>
+          <AddressTypeCode>1</AddressTypeCode>
           <City xsi:nil="true"></City>
           <County xsi:nil="true"></County>
           <Country xsi:nil="true"></Country>
@@ -65,7 +67,7 @@
           <PostalCode xsi:nil="true"></PostalCode>
           <PostOfficeBox xsi:nil="true"></PostOfficeBox>
           <PrimaryContactName xsi:nil="true"></PrimaryContactName>
-          <ShippingMethodCode xsi:nil="true"></ShippingMethodCode>
+          <ShippingMethodCode>1</ShippingMethodCode>
           <StateOrProvince xsi:nil="true"></StateOrProvince>
           <Telephone1 xsi:nil="true"></Telephone1>
           <Telephone2 xsi:nil="true"></Telephone2>
@@ -78,6 +80,7 @@
       </Addresses>
     </Publisher>
     <RootComponents>
+      <RootComponent type="66" schemaName="cr7c8_SampleNamespace.LabelControl" behavior="0" />
       <RootComponent type="300" schemaName="cr7c8_fusioncustomers_9bbc1" behavior="0" />
     </RootComponents>
     <MissingDependencies />
