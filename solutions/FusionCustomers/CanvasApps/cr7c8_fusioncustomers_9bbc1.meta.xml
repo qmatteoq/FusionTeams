@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <CanvasApp xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>cr7c8_fusioncustomers_9bbc1</Name>
-  <AppVersion>2021-11-05T10:00:21Z</AppVersion>
+  <AppVersion>2021-11-08T15:36:33Z</AppVersion>
   <Status>Ready</Status>
   <CreatedByClientVersion>3.21103.27.0</CreatedByClientVersion>
   <MinClientVersion>3.21103.27.0</MinClientVersion>
-  <Tags>{"primaryDeviceWidth":"1366","primaryDeviceHeight":"768","sienaVersion":"0c1f8e41-6915-4926-a3e7-5dbbce05b320","deviceCapabilities":"","supportsPortrait":"true","supportsLandscape":"true","primaryFormFactor":"Tablet","publisherVersion":"3.21103.27","minimumRequiredApiVersion":"2.2.0","hasComponent":"false","hasUnlockedComponent":"false","isUnifiedRootApp":"false"}</Tags>
+  <Tags>{"primaryDeviceWidth":"1366","primaryDeviceHeight":"768","sienaVersion":"0325d928-9b9c-4303-aa79-36378b021b69","deviceCapabilities":"","supportsPortrait":"true","supportsLandscape":"true","primaryFormFactor":"Tablet","publisherVersion":"3.21103.27","minimumRequiredApiVersion":"2.2.0","hasComponent":"false","hasUnlockedComponent":"false","isUnifiedRootApp":"false"}</Tags>
   <IsCdsUpgraded>0</IsCdsUpgraded>
   <GalleryItemId xsi:nil="true"></GalleryItemId>
   <BackgroundColor>RGBA(0,176,240,1)</BackgroundColor>
@@ -14,7 +14,7 @@
   <CommitMessage xsi:nil="true"></CommitMessage>
   <Publisher xsi:nil="true"></Publisher>
   <AuthorizationReferences>[]</AuthorizationReferences>
-  <ConnectionReferences>{}</ConnectionReferences>
+  <ConnectionReferences>{"5b84f1ad-2694-4d40-bedd-34bfbb747694":{"id":"/providers/microsoft.powerapps/apis/shared_fusion-20customers-20-2d-20function-5f931c9da94-5a82eb60f641a1cd","displayName":"Fusion Customers - Function","iconUri":"https://az787822.vo.msecnd.net/defaulticons/api-dedicated.png","dataSources":["CustomersApi"],"dependencies":[],"dependents":[],"parameterHints":{},"parameterHintsV2":{},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{},"apiTier":"Standard","actions":["Customers"],"isCustomApiSolutionAware":false}}</ConnectionReferences>
   <DatabaseReferences>{}</DatabaseReferences>
   <AppComponents>[]</AppComponents>
   <AppComponentDependencies>[]</AppComponentDependencies>
