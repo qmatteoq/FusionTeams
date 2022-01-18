@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <CanvasApp xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>cr7c8_fusioncustomers_9bbc1</Name>
-  <AppVersion>2022-01-17T12:44:43Z</AppVersion>
+  <AppVersion>2022-01-18T10:33:07Z</AppVersion>
   <Status>Ready</Status>
   <CreatedByClientVersion>3.21123.25.0</CreatedByClientVersion>
   <MinClientVersion>3.21123.25.0</MinClientVersion>
-  <Tags>{"primaryDeviceWidth":"1366","primaryDeviceHeight":"768","sienaVersion":"66d4892d-ace5-4fcc-932c-6f84f8411609","deviceCapabilities":"","supportsPortrait":"true","supportsLandscape":"true","primaryFormFactor":"Tablet","publisherVersion":"3.21123.25","minimumRequiredApiVersion":"2.2.0","hasComponent":"false","hasUnlockedComponent":"false","isUnifiedRootApp":"false"}</Tags>
+  <Tags>{"primaryDeviceWidth":"1366","primaryDeviceHeight":"768","sienaVersion":"5d22e7a3-f121-4579-a0f3-14fd087cd052","deviceCapabilities":"","supportsPortrait":"true","supportsLandscape":"true","primaryFormFactor":"Tablet","publisherVersion":"3.21123.25","minimumRequiredApiVersion":"2.2.0","hasComponent":"false","hasUnlockedComponent":"false","isUnifiedRootApp":"false"}</Tags>
   <IsCdsUpgraded>0</IsCdsUpgraded>
   <GalleryItemId xsi:nil="true"></GalleryItemId>
   <BackgroundColor>RGBA(0,176,240,1)</BackgroundColor>
@@ -14,7 +14,7 @@
   <CommitMessage xsi:nil="true"></CommitMessage>
   <Publisher xsi:nil="true"></Publisher>
   <AuthorizationReferences>[]</AuthorizationReferences>
-  <ConnectionReferences>{}</ConnectionReferences>
+  <ConnectionReferences>{"2ae0071b-6f97-45e2-8f17-2a2f466a6241":{"id":"/providers/microsoft.powerapps/apis/shared_fusion-20customers-20-2d-20function-5f931c9da94-5a82eb60f641a1cd","displayName":"Fusion Customers - Function","iconUri":"https://az787822.vo.msecnd.net/defaulticons/api-dedicated.png","dataSources":["CustomersApi"],"dependencies":[],"dependents":[],"parameterHints":{},"parameterHintsV2":{},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{},"apiTier":"Standard","actions":["Customers"],"isCustomApiSolutionAware":false}}</ConnectionReferences>
   <DatabaseReferences>{"default.cds":{"databaseDetails":{"referenceType":"Environmental","environmentName":"default.cds","overrideValues":{"status":"NotSpecified"}},"dataSources":{}}}</DatabaseReferences>
   <AppComponents>[]</AppComponents>
   <AppComponentDependencies>[]</AppComponentDependencies>
