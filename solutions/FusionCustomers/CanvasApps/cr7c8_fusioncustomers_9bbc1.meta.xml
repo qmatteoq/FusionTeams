@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <CanvasApp xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>cr7c8_fusioncustomers_9bbc1</Name>
-  <AppVersion>2022-02-14T17:25:56Z</AppVersion>
+  <AppVersion>2022-03-03T18:15:44Z</AppVersion>
   <Status>Ready</Status>
-  <CreatedByClientVersion>3.22015.22.0</CreatedByClientVersion>
-  <MinClientVersion>3.22015.22.0</MinClientVersion>
-  <Tags>{"primaryDeviceWidth":"1366","primaryDeviceHeight":"768","sienaVersion":"4dc628f4-97a7-46ca-9819-f1d6a4176f20","deviceCapabilities":"","supportsPortrait":"true","supportsLandscape":"true","primaryFormFactor":"Tablet","publisherVersion":"3.22015.22","minimumRequiredApiVersion":"2.2.0","hasComponent":"false","hasUnlockedComponent":"false","isUnifiedRootApp":"false"}</Tags>
+  <CreatedByClientVersion>3.22022.23.0</CreatedByClientVersion>
+  <MinClientVersion>3.22022.23.0</MinClientVersion>
+  <Tags>{"primaryDeviceWidth":"1366","primaryDeviceHeight":"768","sienaVersion":"873c3271-9686-4acd-942d-b3d30029ab46","deviceCapabilities":"","supportsPortrait":"true","supportsLandscape":"true","primaryFormFactor":"Tablet","publisherVersion":"3.22022.23","minimumRequiredApiVersion":"2.2.0","hasComponent":"false","hasUnlockedComponent":"false","isUnifiedRootApp":"false"}</Tags>
   <IsCdsUpgraded>0</IsCdsUpgraded>
   <GalleryItemId xsi:nil="true"></GalleryItemId>
   <BackgroundColor>RGBA(0,176,240,1)</BackgroundColor>
@@ -14,7 +14,7 @@
   <CommitMessage xsi:nil="true"></CommitMessage>
   <Publisher xsi:nil="true"></Publisher>
   <AuthorizationReferences>[]</AuthorizationReferences>
-  <ConnectionReferences>{"de68b35e-6965-4923-95d8-0639542b1d02":{"id":"/providers/microsoft.powerapps/apis/shared_fusion-20customers-20-2d-20function-5f931c9da94-5a82eb60f641a1cd","displayName":"Fusion Customers - Function","iconUri":"https://az787822.vo.msecnd.net/defaulticons/api-dedicated.png","dataSources":["CustomersApi"],"dependencies":[],"dependents":[],"parameterHints":{},"parameterHintsV2":{},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{},"apiTier":"Standard","actions":["Customers"],"isCustomApiSolutionAware":false}}</ConnectionReferences>
+  <ConnectionReferences>{"b8fa9191-cc80-4a14-9e33-58c2649f90c1":{"id":"/providers/microsoft.powerapps/apis/shared_fusion-20customers-20-2d-20function-5f931c9da94-5a82eb60f641a1cd","displayName":"Fusion Customers - Function","iconUri":"https://az787822.vo.msecnd.net/defaulticons/api-dedicated.png","dataSources":["CustomersApi"],"dependencies":[],"dependents":[],"parameterHints":{},"parameterHintsV2":{},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{},"apiTier":"Standard","actions":["Customers"],"isCustomApiSolutionAware":false}}</ConnectionReferences>
   <DatabaseReferences>{"default.cds":{"databaseDetails":{"referenceType":"Environmental","environmentName":"default.cds","overrideValues":{"status":"NotSpecified"}},"dataSources":{}}}</DatabaseReferences>
   <AppComponents>[]</AppComponents>
   <AppComponentDependencies>[]</AppComponentDependencies>
