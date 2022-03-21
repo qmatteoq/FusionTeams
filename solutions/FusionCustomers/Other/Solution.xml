@@ -80,9 +80,15 @@
       </Addresses>
     </Publisher>
     <RootComponents>
+      <RootComponent type="29" id="{0f274540-08a9-ec11-983f-002248848386}" behavior="0" />
       <RootComponent type="66" schemaName="cr7c8_SampleNamespace.LabelControl" behavior="0" />
       <RootComponent type="300" schemaName="cr7c8_fusioncustomers_9bbc1" behavior="0" />
     </RootComponents>
-    <MissingDependencies />
+    <MissingDependencies>
+      <MissingDependency>
+        <Required type="connectionreference" displayName="new_sharedgithub202d2015f931c9da940976c065fef357ceb907f4706_18579" solution="Active" id.connectionreferencelogicalname="new_sharedgithub202d2015f931c9da940976c065fef357ceb907f4706_18579" />
+        <Dependent type="29" displayName="GitHub" id="{0f274540-08a9-ec11-983f-002248848386}" />
+      </MissingDependency>
+    </MissingDependencies>
   </SolutionManifest>
 </ImportExportXml>
