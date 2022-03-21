@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <CanvasApp xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>cr7c8_fusioncustomers_9bbc1</Name>
-  <AppVersion>2022-03-21T11:53:53Z</AppVersion>
+  <AppVersion>2022-03-21T12:02:23Z</AppVersion>
   <Status>Ready</Status>
   <CreatedByClientVersion>3.22022.23.0</CreatedByClientVersion>
   <MinClientVersion>3.22022.23.0</MinClientVersion>
-  <Tags>{"primaryDeviceWidth":"1366","primaryDeviceHeight":"768","sienaVersion":"dfbe0a4a-80b0-499d-892e-e6c1c7c8c9a0","deviceCapabilities":"","supportsPortrait":"true","supportsLandscape":"true","primaryFormFactor":"Tablet","publisherVersion":"3.22022.23","minimumRequiredApiVersion":"2.2.0","hasComponent":"false","hasUnlockedComponent":"false","isUnifiedRootApp":"false"}</Tags>
+  <Tags>{"primaryDeviceWidth":"1366","primaryDeviceHeight":"768","sienaVersion":"37a847a7-51df-4189-a3f6-f6bff4fb4f22","deviceCapabilities":"","supportsPortrait":"true","supportsLandscape":"true","primaryFormFactor":"Tablet","publisherVersion":"3.22022.23","minimumRequiredApiVersion":"2.2.0","hasComponent":"false","hasUnlockedComponent":"false","isUnifiedRootApp":"false"}</Tags>
   <IsCdsUpgraded>0</IsCdsUpgraded>
   <GalleryItemId xsi:nil="true"></GalleryItemId>
   <BackgroundColor>RGBA(0,176,240,1)</BackgroundColor>
@@ -14,7 +14,7 @@
   <CommitMessage xsi:nil="true"></CommitMessage>
   <Publisher xsi:nil="true"></Publisher>
   <AuthorizationReferences>[]</AuthorizationReferences>
-  <ConnectionReferences>{"b184bf27-ef40-4ae8-ad77-c349ec2a4ce6":{"id":"/providers/microsoft.powerapps/apis/shared_github-20-2d-201-5f931c9da940976c06-5fef357ceb907f4706","displayName":"GitHub - 1","iconUri":"https://az787822.vo.msecnd.net/defaulticons/api-dedicated.png","dataSources":["GitHub"],"dependencies":[],"dependents":[],"parameterHints":{},"parameterHintsV2":{},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{},"apiTier":"Standard","isCustomApiSolutionAware":false},"10748f3c-c287-4afe-8b08-3b11d2917597":{"id":"/providers/microsoft.powerapps/apis/shared_logicflows","displayName":"Logic flows","iconUri":"https://connectoricons-prod.azureedge.net/releases/v1.0.1534/1.0.1534.2605/logicflows/icon.png","dataSources":["GitHub_1"],"dependencies":["3fb1fe55-1cd0-436f-8908-d4785a776ebd"],"dependents":[],"parameterHints":{"workflowName":{"value":"d907ddf7-56fd-4806-8668-a9d933edce10"},"workflowEntityId":{"value":"0f274540-08a9-ec11-983f-002248848386"},"3fb1fe55-1cd0-436f-8908-d4785a776ebd":{"value":"shared_github-20-2d-201-5f931c9da940976c06-5fef357ceb907f4706"}},"parameterHintsV2":{"workflowName":{"value":"d907ddf7-56fd-4806-8668-a9d933edce10"},"workflowEntityId":{"value":"0f274540-08a9-ec11-983f-002248848386"},"shared_github-20-2d-201-5f931c9da940976c06-5fef357ceb907f4706":{"value":"3fb1fe55-1cd0-436f-8908-d4785a776ebd"}},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{},"apiTier":"Standard","actions":["Run"],"isCustomApiSolutionAware":false},"3fb1fe55-1cd0-436f-8908-d4785a776ebd":{"id":"/providers/microsoft.powerapps/apis/shared_github-20-2d-201-5f931c9da940976c06-5fef357ceb907f4706","displayName":"GitHub - 1","iconUri":"https://az787822.vo.msecnd.net/defaulticons/api-dedicated.png","dataSources":[],"dependencies":[],"dependents":["10748f3c-c287-4afe-8b08-3b11d2917597"],"parameterHints":{},"parameterHintsV2":{},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{},"apiTier":"Standard","isCustomApiSolutionAware":false}}</ConnectionReferences>
+  <ConnectionReferences>{}</ConnectionReferences>
   <DatabaseReferences>{"default.cds":{"databaseDetails":{"referenceType":"Environmental","environmentName":"default.cds","overrideValues":{"status":"NotSpecified"}},"dataSources":{}}}</DatabaseReferences>
   <AppComponents>[]</AppComponents>
   <AppComponentDependencies>[]</AppComponentDependencies>
